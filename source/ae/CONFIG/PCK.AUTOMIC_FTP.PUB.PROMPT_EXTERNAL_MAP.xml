@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?><uc-export clientvers="11.0.0">
+<VARA OVD_VRName="FREI" data_type="STATIC" name="PCK.AUTOMIC_FTP.PUB.PROMPT_EXTERNAL_MAP" replacementmode="2">
+<HEADER state="1">
+<Title/>
+<ArchiveKey1/>
+<ArchiveKey2/>
+<OH_SubType>STATIC</OH_SubType>
+</HEADER>
+<ATTR_VARA state="1">
+<Type>C|Text</Type>
+<lblSource>Static</lblSource>
+<source>STATIC</source>
+<VRName>FREI|Freely selected</VRName>
+<NotFoundErr>0</NotFoundErr>
+<NotFoundDef>1</NotFoundDef>
+<ShareN>0</ShareN>
+<ShareL>0</ShareL>
+<ShareR>0</ShareR>
+<MaxValue_C>1024</MaxValue_C>
+<CheckMax_C>0</CheckMax_C>
+<uppercase>0</uppercase>
+<sortColumn>0</sortColumn>
+<sortDirection>0</sortDirection>
+</ATTR_VARA>
+<VARA state="1">
+<Variables>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/AGENT#" Value="&amp;AGENT#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/LOGIN#" Value="&amp;LOGIN#" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/UC4RB_FTP_CONNECT_TIMEOUT#" Value="EXT:/source/ftp/connection_timeout" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/UC4RB_FTP_HOST#" Value="EXT:/source/ftp/host" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/UC4RB_FTP_PORT#" Value="EXT:/source/ftp/port" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/UC4RB_FTP_PROTOCOL#" Value="EXT:/source/ftp/protocol" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/UC4RB_FTP_PROXY_HOST#" Value="EXT:/source/ftp/proxy_host" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/UC4RB_FTP_PROXY_PORT#" Value="EXT:/source/ftp/proxy_port" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/UC4RB_FTP_PROXY_PWD#" Value="EXT:/source/ftp/proxy_pwd" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/UC4RB_FTP_PROXY_USER#" Value="EXT:/source/ftp/proxy_user" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/UC4RB_FTP_PWD#" Value="EXT:/source/ftp/password" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/UC4RB_FTP_RECURSIVE_GET#" Value="EXT:/source/ftp/recursive_download" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/UC4RB_FTP_SOURCE_FILES#" Value="EXT:/source/source_files_dirs" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/UC4RB_FTP_TGT_FILES_DIR#" Value="EXT:/target/target_files_dirs" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/UC4RB_FTP_TGT_OVERWRITE#" Value="EXT:/target/overwrite_target" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/UC4RB_FTP_TR_MODE#" Value="EXT:/source/ftp/transfer_mode" Value1="" Value2="" Value3="" Value4=""/>
+<row Name="PCK.AUTOMIC_FTP.PUB.ACTION.GET/UC4RB_FTP_USER#" Value="EXT:/source/ftp/username" Value1="" Value2="" Value3="" Value4=""/>
+</Variables>
+</VARA>
+<DOCU_Docu state="1" type="text">
+<DOC/>
+</DOCU_Docu>
+</VARA>
+</uc-export>

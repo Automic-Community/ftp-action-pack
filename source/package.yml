@@ -1,0 +1,24 @@
+name: PCK.AUTOMIC_FTP
+source: ae
+binaries:
+- object: RESOURCES/LIBS/PCK.AUTOMIC_FTP.PRV.STORE
+  resources: 
+  - name: FTPTOOL.JAR
+    type: BINARY
+    path: tools/ftp-tool/target/ftp-tool.jar
+    version: 1.1.6
+  - name: FTP4J.JAR
+    type: BINARY
+    path: tools/ftp4j/ftp4j.jar
+    version: 1.7.2
+  - name: FTP4J.SOURCE.JAR
+    type: BINARY
+    path: tools/ftp4j/ftp4j-1.7.2-sources.jar
+    version: 1.7.2
+- object: RESOURCES/PCK.AUTOMIC_FTP.PRV.CUSTOM_TYPES
+  timestamp: disabled
+  resources:
+  - name: ARTIFACTSOURCE#FTP
+    type: TEXT
+    path: ara/types/artifact/Artifact_FTP_1.0.0.xml
+    version: 1.0.0

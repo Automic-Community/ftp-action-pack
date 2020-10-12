@@ -1,0 +1,10 @@
+connection.properties
+
+config.yml
+/tools/ftp-tool/.settings
+/tools/ftp-tool/target
+/tools/ftp-tool/.classpath
+/tools/ftp-tool/.project
+
+.sonar
+.sonar
